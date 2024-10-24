@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Light background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for centering */
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+  background-color: rgb(43, 246, 20); /* White background for the calculator */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 300px; /* Width resembling mobile screen */
+  padding: 20px; /* Padding inside the container */
+  border:20px solid rgb(249, 247, 247);
+ 
+}
+
+.title {
+  text-align: center;
+  font-size: 24px; /* Title size */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.button {
+  padding: 25px; /* Adjust button padding */
+  margin: 5px; /* Space between buttons */
+  border: 2px solid black;
+  border-radius: 50%; /* Circular buttons */
+  font-weight: bold; /* Bold font style */
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffa200; /* Button color */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.button:hover {
+  background-color: #ff8c00; /* Darker shade on hover */
+}
+
+.row {
+  display: flex; /* Use flexbox for row layout */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+.row input {
+  margin: 0;
+  padding: 10px; /* Padding for input */
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 24px; /* Larger font size for visibility */
+  width: 100%; /* Full width input */
+  text-align: right; /* Right align the input text */
+}
